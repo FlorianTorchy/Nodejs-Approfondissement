@@ -5,6 +5,7 @@ class UserService {
   getAll() {
     return User.find({}, "-password");
   }
+
   get(id) {
     return User.findById(id, "-password");
   }

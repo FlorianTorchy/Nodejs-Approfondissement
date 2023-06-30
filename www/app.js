@@ -16,4 +16,6 @@ db.on("open", () => {
 
 server.listen(config.port, () => {
   console.log("app running");
+  console.log("http://localhost:"+ config.port)//
 });
+console.error(new Error("Ceci est une erreur générée à des fins de test."));

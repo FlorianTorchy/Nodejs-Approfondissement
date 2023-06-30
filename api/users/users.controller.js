@@ -3,6 +3,7 @@ const UnauthorizedError = require("../../errors/unauthorized");
 const jwt = require("jsonwebtoken");
 const config = require("../../config");
 const usersService = require("./users.service");
+const articlesService = require("../articles/articles.service");
 
 class UsersController {
   async getAll(req, res, next) {
@@ -63,13 +64,29 @@ class UsersController {
       if (!userId) {
         throw new UnauthorizedError();
       }
+
       const token = jwt.sign({ userId }, config.secretJwtToken, {
         expiresIn: "3d",
       });
+      // On récupère l'objet user dans la BDD via l'userId et on le stock dans req
       res.json({
         token,
       });
     } catch (err) {
+      next(err);
+    }
+  }
+
+  async getArticlesUser(req, res, next) {
+    try {
+      // déclaration d'une constante userId qui récupère l'userId donné par l'utilisateur
+      const userId = req.params.userId;
+      // déclaration d'une constante articles qui contiendra les articles correspondant à l'userId
+      const articles = await articlesService.articlesUser(userId);
+      // On retourne l'objet articles à l'utilisateur
+      res.json({ articles });
+    } catch (err) {
+      // res.status(404).send(`l'utilisateur n'existe pas ou n'a pas d'article à son nom`)
       next(err);
     }
   }

@@ -41,10 +41,12 @@ const userSchema = Schema({
   next()
 }) */
 
+//avant enregistrement BDD
 userSchema.pre("save", async function () {
   this.email = this.email.toLowerCase();
 });
 
+//avant enregistrement BDD
 userSchema.pre("save", async function () {
   this.password = await bcrypt.hash(this.password, 10);
 });

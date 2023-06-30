@@ -1,0 +1,33 @@
+Error: Ceci est une erreur générée à des fins de test.
+    at Object.<anonymous> (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\www\app.js:21:15)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\waterfall.js:96:20)
+    at C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\pm2\lib\Utility.js:186:13)
+Error: Ceci est une erreur générée à des fins de test.
+    at Object.<anonymous> (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\www\app.js:21:15)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\waterfall.js:96:20)
+    at C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\pm2\lib\Utility.js:186:13)
+Error: Ceci est une erreur générée à des fins de test.
+    at Object.<anonymous> (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\www\app.js:21:15)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\pm2\lib\ProcessContainer.js:304:25
+    at wrapper (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\internal\once.js:12:16)
+    at next (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\waterfall.js:96:20)
+    at C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (C:\Users\f.torchy\Documents\Personnel\ISCOD\Exercices_rendus\Bloc3\etudeDeCas\Nodejs-Approfondissement\node_modules\pm2\lib\Utility.js:186:13)
